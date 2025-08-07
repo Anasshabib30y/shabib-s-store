@@ -1,0 +1,245 @@
+
+body{
+    background: linear-gradient( #709a95,#2a605a);
+    background-size: cover;
+}
+
+.nav{
+    background-color: #fff;
+    height: 50px;
+    width:1300px;
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    text-align: center;
+    margin-top: -7.8px;
+    left: 80px;
+    position: relative;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+        text-decoration: none;
+
+    padding: 0;
+}
+
+.nav ul li{
+    margin: 7px 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #66989b;
+}
+
+.container_img{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+}
+.container_img i{
+    font-size: 25px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#left_Arrow{
+    position: relative;
+    left: 450px;
+}
+
+#right_Arrow{
+    position: relative;
+    right: 515px;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    opacity: 0;
+    position: relative;
+    left: 450px;
+}
+
+.img1{
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    opacity: 0;
+    position: relative;
+    left: 128px;
+}.img2{
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    position: relative;
+    right: 195px;
+    
+}.img3{
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    border-radius: 10px;
+    opacity: 0;
+    position: relative;
+    right: 519px;
+}
+
+.container_img3{
+
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 80px;
+
+}
+.container_img3 a{
+    text-decoration: none;
+    color: #f2f1f4;
+}
+
+.container_i{
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    position: relative;
+    left: 125px;
+}
+.container_i i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.electrical{
+    position: relative;
+    left: 80px
+}
+
+.Perfumes{
+    width: 500px;
+    height: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2f1f4;
+}
+ .Perfumes img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+ }
+
+ .make_up{
+    width: 500px;
+    height: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2f1f4;
+ }
+.make_up img{
+       width: 250px;
+    height: 300px;
+     object-fit: cover;
+}
+
+.electrical_appliances{
+    width: 500px;
+    height: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2f1f4;
+}
+.electrical_appliances img{
+     width: 250px;
+    height: 300px;
+     object-fit: cover;
+}
+
+.Baby_care_tools{
+      width: 500px;
+    height: 350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2f1f4;
+}
+.Baby_care_tools img{
+     width: 250px;
+    height: 300px;
+     object-fit: cover;
+}
+
+ .sale{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    margin: 80px;
+    position: relative;
+    left: 300px;
+    background:linear-gradient(#f2f1f4,#d59daa);
+    width: 550px;
+    padding-left: 130px;
+ }
+
+ .sale input{
+ background-color: rgba(255, 255, 255, 0.1);
+    width: 50px;
+    border: none;
+ }
+ .container_img4{
+    display: flex;
+    justify-self: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+ }
+/*  
+ .container_img4 i{
+
+    position: relative;
+    top: 360px;
+    left: -190px;
+    cursor: pointer;
+
+ } */
+ .container_img4 img{
+       width: 250px;
+    height: 300px;
+     object-fit: cover;
+     margin: 50px;
+ }
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: #f2f1f4;
+    border-top: 2px solid black;
+ }
+ footer i{
+    margin: 5px 60px;
+    font-size: 30px;
+    cursor: pointer;
+ }
