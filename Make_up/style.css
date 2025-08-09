@@ -43,6 +43,7 @@ input{
     position: relative;
     left: 70px;
     text-align: center;
+    font-size: xx-large;
 }
 
 
@@ -54,6 +55,16 @@ input{
 
 }
 
+    .comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-bottom: 50px;
+    height: 650px;
+}
+
 .comments{
 
 font-size: larger;
@@ -63,7 +74,7 @@ color: #d59daa;
 
 .M{
     position: relative;
-    left: 450px;
+    left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,10 +88,23 @@ height: 200px;
 border-radius: 5px;
 }
 
+.user_comment{    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+border: 3px solid #66989b;
+margin: 10px;
+padding: 10px;
+width: 500px;
+height: 200px;
+border-radius: 5px;}
 
 .A{
     position: relative;
-    left: 450px;
+    left: -0px;
         display: flex;
     flex-direction: column;
     justify-content: center;

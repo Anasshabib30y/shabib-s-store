@@ -1,0 +1,46 @@
+
+    body{
+    background: linear-gradient( #709a95,#2a605a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.container{
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: #f2f1f4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.container_img{
+
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 80px;
+    height: auto;
+    width: auto;
+    
+}
+
+#img{
+      width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+    object-fit: cover;
+
+}
+.buy_btn{
+    background-color: #2a605a;
+    margin: 20px;
+}
