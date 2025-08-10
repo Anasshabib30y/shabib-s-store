@@ -23,7 +23,7 @@ let username = id("username"),
         email.value.trim() !== "" &&
         password.value.trim() !== ""
     ) {
-        window.location.href = "../index.html";
+        window.location.href = "../home_page/index.html";
         const user_data ={
             username: username.value,
             email: email.value,
