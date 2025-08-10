@@ -286,7 +286,7 @@ margin-top: 50px;
 
 .nav{
     background-color: #fff;
-    height: 20px;
+    height: auto;
     width:100%;
     display: flex;
     text-align: center;
@@ -391,6 +391,14 @@ align-items: center;
     cursor: pointer;
     margin-left: 10px;
 
+}
+.container_img3 {
+        gap: 10px; /* مسافة بين الصور */
+    overflow-x: auto; /* يضيف الاسكرول الأفقي */
+    scroll-behavior: smooth; /* حركة ناعمة */
+    scrollbar-width: none;
+    width: 900px;
+    height: auto;
 }
 #perfumes{
     display: flex;
