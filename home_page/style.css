@@ -136,7 +136,10 @@ margin-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2f1f4;
     margin-left: 40px;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
 }
  .Perfumes img{
     width: 250px;
