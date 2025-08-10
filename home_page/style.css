@@ -114,9 +114,15 @@ margin-top: 50px;
     left: 80px
 }
 
-    .container_img{
-        position: relative;
-        right: 60px;
+.container_img{
+    width: auto;
+    position: relative;
+    right: 60px;
+    gap: 8px; /* مسافة بين الصور */
+    overflow-x: auto; /* يضيف الاسكرول الأفقي */
+    scroll-behavior: smooth; /* حركة ناعمة */
+    scrollbar-width: none
+    
     }
 
 .Perfumes{
