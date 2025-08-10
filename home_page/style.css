@@ -114,6 +114,11 @@ margin-top: 50px;
     left: 80px
 }
 
+    .container_img{
+        position: relative;
+        right: 60px;
+    }
+
 .Perfumes{
     width: 500px;
     height: 350px;
@@ -127,7 +132,6 @@ margin-top: 50px;
     object-fit: cover;
     position: relative;
     left: 100px;
-            margin-left: -100px;
 
  }
 
