@@ -203,7 +203,7 @@ margin-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2f1f4;
     position: relative;
-    left: 100px;
+    left: -400px;
 
 }
 .Baby_care_tools img{
@@ -211,6 +211,11 @@ margin-top: 50px;
      height: 300px;
      object-fit: cover;
      
+}
+.Baby_care{
+    position: relative;
+    left: -420px;
+    top: -10px
 }
 
  .sale{
