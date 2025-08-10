@@ -394,7 +394,21 @@ align-items: center;
     margin-left: 10px;
 
 }
+.container_img3{
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5px;
+    gap: 8px; /* مسافة بين الصور */
+    overflow-x: auto; /* يضيف الاسكرول الأفقي */
+    scroll-behavior: smooth; /* حركة ناعمة */
+    scrollbar-width: none;
 
+    left: 15px;
+    top: -40px;
+}
 #perfumes{
     display: flex;
     justify-self: center;
@@ -402,7 +416,7 @@ align-items: center;
     align-items: center;
     flex-direction: row;
     margin-left: 5px;
-    position: relative;
+
     left: 15px;
     top: -40px;
 
@@ -414,7 +428,7 @@ align-items: center;
     align-items: center;
     flex-direction: row;
     margin-left: 5px;
-    position: relative;
+
     top: -40px;
     left: -10px
     
@@ -428,7 +442,7 @@ align-items: center;
     align-items: center;
     flex-direction: row;
     margin-left: 5px;
-    position: relative;
+
     }
 
     .electrical{
