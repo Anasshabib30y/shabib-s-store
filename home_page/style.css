@@ -144,7 +144,10 @@ margin-top: 50px;
     object-fit: cover;
     position: relative;
     left: 250px;
-
+ }
+ #perfumes{
+    position: relative;
+    left: 100px;
  }
 
  .make_up{
