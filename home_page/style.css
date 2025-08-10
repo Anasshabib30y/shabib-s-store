@@ -49,6 +49,7 @@ justify-content: center;
 align-items: center;
 margin-top: 50px;
 
+
 }
 .container_img i{
     font-size: 25px;
@@ -118,6 +119,7 @@ margin-top: 50px;
     height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2f1f4;
+    ;
 }
  .Perfumes img{
     width: 250px;
@@ -133,6 +135,7 @@ margin-top: 50px;
     height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2f1f4;
+    margin-left: -50px;
  }
 .make_up img{
        width: 250px;
@@ -148,6 +151,8 @@ margin-top: 50px;
     height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2f1f4;
+        margin-left: -50px;
+
 }
 .electrical_appliances img{
      width: 250px;
@@ -163,6 +168,8 @@ margin-top: 50px;
     height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2f1f4;
+        margin-left: -50px;
+
 }
 .Baby_care_tools img{
      width: 250px;
