@@ -121,7 +121,7 @@ margin-top: 50px;
 }
  .Perfumes img{
     width: 250px;
-        height: 300px;
+     height: 300px;
     object-fit: cover;
     position: relative;
     left: 100px;
@@ -136,7 +136,7 @@ margin-top: 50px;
  }
 .make_up img{
        width: 250px;
-    
+    position: relative;
     height: 300px;
      object-fit: cover;
          left: 100px;
@@ -151,6 +151,7 @@ margin-top: 50px;
 }
 .electrical_appliances img{
      width: 250px;
+     position: relative;
          left: 100px;
      height: 300px;
      object-fit: cover;
@@ -165,6 +166,7 @@ margin-top: 50px;
 }
 .Baby_care_tools img{
      width: 250px;
+     position: relative;
          left: 100px;
      height: 300px;
      object-fit: cover;
