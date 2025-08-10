@@ -468,9 +468,9 @@ align-items: center;
 }
  .Perfumes img{
     width: 100px;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
-    margin: 17px;
+    margin: 2px;
     object-fit: cover;
  }
 
@@ -482,7 +482,7 @@ align-items: center;
  }
 .make_up img{
     width: 100px;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
     margin: 17px;
     object-fit: cover;
@@ -496,7 +496,7 @@ align-items: center;
 }
 .electrical_appliances img{
     width: 100px;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
     margin: 17px;
     object-fit: cover;
@@ -510,7 +510,7 @@ align-items: center;
 }
 .Baby_care_tools img{
     width: 100px;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
     margin: 17px;
     object-fit: cover;
