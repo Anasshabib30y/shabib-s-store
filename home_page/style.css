@@ -141,14 +141,15 @@ margin-top: 50px;
 }
  .Perfumes img{
     width: 250px;
-     height: 300px;
+    height: 300px;
     object-fit: cover;
     position: relative;
-    left: 300px;
+    left: 250px;
  }
  #perfumes{
     position: relative;
     left: 300px;
+    top: -20px;
  }
 
  .make_up{
