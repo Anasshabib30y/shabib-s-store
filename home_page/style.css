@@ -282,6 +282,8 @@ margin-top: 50px;
     body{
     background: linear-gradient( #709a95,#2a605a);
     background-size: cover;
+    width: auto;
+    height: auto;
 }
 
 .nav{
