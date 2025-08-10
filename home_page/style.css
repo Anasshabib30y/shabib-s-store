@@ -578,3 +578,12 @@ align-items: center;
     padding-top:5px ;
  }
  }
+ @media (max-width: 480) {
+    .container_img3 img{
+        width: 100px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 2px;
+        object-fit: cover;
+     }
+    }
