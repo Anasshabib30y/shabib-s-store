@@ -392,21 +392,18 @@ align-items: center;
     margin-left: 10px;
 
 }
-.container_img3 {
-    width: 900px;
-    height: auto;
-    margin: 10px;
-}
+
 #perfumes{
     display: flex;
     justify-self: center;
     text-align: center;
     align-items: center;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 5px;
     position: relative;
-    left: 5px;
+    left: 15px;
     top: -40px;
+
 }
 .Baby_care{
     display: flex;
@@ -414,21 +411,21 @@ align-items: center;
     text-align: center;
     align-items: center;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 5px;
     position: relative;
     top: -40px;
-    left: -13px
+    left: -10px
     
 }
     .make{
         top: -37px;
-        left: 23px;
+        left: 29px;
             display: flex;
     justify-self: center;
     text-align: center;
     align-items: center;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 5px;
     position: relative;
     }
 
@@ -440,7 +437,7 @@ align-items: center;
     text-align: center;
     align-items: center;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 5px;
     position: relative;
     }
 
