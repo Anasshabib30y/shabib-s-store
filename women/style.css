@@ -156,7 +156,7 @@ body{
 
 .nav{
     background-color: #fff;
-    height: 20px;
+    height: auto;
     width:100%;
     display: flex;
     text-align: center;
