@@ -2,7 +2,12 @@
 body{
     background: linear-gradient( #709a95,#2a605a);
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
+
+
+
 
 .nav{
     background-color: #fff;

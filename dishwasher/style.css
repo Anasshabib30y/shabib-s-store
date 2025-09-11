@@ -1,4 +1,44 @@
 
+
+
+.nav{
+    background-color: #fff;
+    height: 50px;
+    width:1300px;
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    text-align: center;
+    margin-top: -7.8px;
+    /* left: 80px; */
+    /* position: relative; */
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+        text-decoration: none;
+
+    padding: 0;
+}
+
+.nav ul li{
+    margin: 7px 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #66989b;
+}
+
 div{
 
     width: 100%;
