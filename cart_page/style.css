@@ -1,79 +1,154 @@
-
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
+.nav {
+  background-color: #fff;
+  height: 50px;
 
-.nav{
-    background-color: #fff;
-    height: 50px;
-    
-    display: flex;
-    text-align: center;
-    justify-self: center;
-    text-align: center;
-    /* padding-right:300px; */
-    margin-top: -7.8px;
-    position: relative;
-    /* left: ; */
-
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  text-align: center;
+  /* padding-right:300px; */
+  margin-top: -7.8px;
+  position: relative;
+  left: -200px;
 }
 
-.nav ul{
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: center;
-    margin: 0;
-    text-decoration: none;
-    padding: 0;
+.nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
 }
 
-.nav ul li{
-    margin: 7px 1rem;
-    color: #fff;
-    font-size: 1.2rem;
-    cursor: pointer;
-    text-decoration: none;
-    list-style: none;
+.nav ul li {
+  margin: 7px 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
 }
 
-.nav ul li a{
-    text-decoration: none;
-    color: #66989b;
+.nav ul li a {
+  text-decoration: none;
+  color: #66989b;
 }
 
-.fa-arrow-right{
-
-    margin: 7px 1rem;
-    position: relative;
-    top: 6px;
-    left: 15px;
-    cursor: pointer;
-
+.fa-arrow-right {
+  margin: 7px 1rem;
+  position: relative;
+  top: 6px;
+  left: 15px;
+  cursor: pointer;
 }
 
-    body{
-    background: linear-gradient( #709a95,#2a605a);
+body {
+  background: linear-gradient(#709a95, #2a605a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: #f2f1f4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container_img {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 80px;
+  height: auto;
+  width: auto;
+}
+
+#img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+  object-fit: cover;
+}
+.buy_btn {
+  background-color: #2a605a;
+  margin: 20px;
+}
+
+.nav {
+  background-color: #fff;
+  height: 50px;
+  width: 1300px;
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  text-align: center;
+  margin-top: -7.8px;
+  left: 80px;
+  position: relative;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  text-decoration: none;
+
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 7px 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #66989b;
+}
+
+@media (max-width: 641px) {
+  body {
+    background: linear-gradient(#709a95, #2a605a);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-} 
-.container{
+  }
+  .container {
     display: flex;
     justify-self: center;
     text-align: center;
     align-items: center;
     flex-direction: column;
-}
-h1{
+  }
+  h1 {
     color: #f2f1f4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
 
-.container_img{
-
+  .container_img {
     display: flex;
     justify-self: center;
     text-align: center;
@@ -83,114 +158,24 @@ h1{
     margin: 80px;
     height: auto;
     width: auto;
-    
-}
+  }
 
-#img{
-      width: 200px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 20px;
-    object-fit: cover;
-
-}
-.buy_btn{
-    background-color: #2a605a;
-    margin: 20px;
-}
-
-
-.nav{
-    background-color: #fff;
-    height: 50px;
-    width:1300px;
-    display: flex;
-    text-align: center;
-    justify-self: center;
-    text-align: center;
-    margin-top: -7.8px;
-    left: 80px;
-    position: relative;
-}
-
-.nav ul{
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: center;
-    margin: 0;
-        text-decoration: none;
-
-    padding: 0;
-}
-
-.nav ul li{
-    margin: 7px 1rem;
-    color: #fff;
-    font-size: 1.2rem;
-    cursor: pointer;
-    text-decoration: none;
-    list-style: none;
-}
-
-.nav ul li a{
-    text-decoration: none;
-    color: #66989b;
-}
-
- @media (max-width:641px){
-
-    body{
-    background: linear-gradient( #709a95,#2a605a);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} 
-.container{
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-}
-h1{
-    color: #f2f1f4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-}
-
-.container_img{
-
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 80px;
-    height: auto;
-    width: auto;
-    
-}
-
-#img{
+  #img {
     width: 150px;
     height: 250px;
     border-radius: 10px;
     margin: 17px;
     object-fit: cover;
-
-}
-.buy_btn{
+  }
+  .buy_btn {
     background-color: #2a605a;
     margin: 16px;
-}
+  }
 
-
-.nav{
+  .nav {
     background-color: #fff;
     height: auto;
-    width:100%;
+    width: 100%;
     display: flex;
     text-align: center;
     justify-self: center;
@@ -198,31 +183,30 @@ h1{
     margin-top: -5.8px;
     left: 5px;
     position: relative;
-}
+  }
 
-.nav ul{
+  .nav ul {
     display: flex;
     list-style: none;
     width: 100%;
     justify-content: center;
     margin: 0;
-        text-decoration: none;
+    text-decoration: none;
 
     padding: 0;
-}
+  }
 
-.nav ul li{
-    margin: 4px .5rem;
+  .nav ul li {
+    margin: 4px 0.5rem;
     color: #fff;
     font-size: 0.5rem;
     cursor: pointer;
     text-decoration: none;
     list-style: none;
-}
+  }
 
-.nav ul li a{
+  .nav ul li a {
     text-decoration: none;
     color: #66989b;
+  }
 }
-
- }
