@@ -8,10 +8,10 @@
     text-align: center;
     justify-self: center;
     text-align: center;
-    /* padding-right:100px; */
+    padding-left:-1000px;
     margin-top: -7.8px;
-    position: relative;
-    left: -1000px;
+    /* position: relative;
+    left: -1000px; */
 
 }
 
