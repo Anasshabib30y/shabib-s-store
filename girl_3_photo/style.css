@@ -39,6 +39,16 @@
     color: #66989b;
 }
 
+.fa-arrow-right{
+
+    margin: 7px 1rem;
+    position: relative;
+    top: 6px;
+    left: 15px;
+    cursor: pointer;
+
+}
+
 div{
 
     width: 100%;

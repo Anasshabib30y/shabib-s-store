@@ -15,6 +15,16 @@ div{
     
 }
 
+.fa-arrow-right{
+
+    margin: 7px 1rem;
+    position: relative;
+    top: 6px;
+    left: 15px;
+    cursor: pointer;
+
+}
+
 div img{
     width: 300px;
     height: 500px;
