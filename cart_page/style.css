@@ -1,40 +1,44 @@
-/* body {
-  overflow-x: hidden;
-} */
 body {
-  background: linear-gradient(#709a95, #2a605a);
-  margin: 0;
-  padding: 0;
+  overflow-x: hidden;
 }
 
 .nav {
   background-color: #fff;
   height: 50px;
-  width: 80%;         /* 80% من الشاشة */
-  margin: 20px auto;  /* يوسّط العنصر */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  width: 1300px;
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  text-align: center;
+  /* padding-right:300px; */
+  margin-top: -7.8px;
   position: relative;
-  left: -200px;
+  right: 200px;
 }
 
 .nav ul {
   display: flex;
   list-style: none;
+  width: 100%;
+  justify-content: center;
   margin: 0;
+  text-decoration: none;
   padding: 0;
 }
 
 .nav ul li {
-  margin: 0 1rem;
+  margin: 7px 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
 }
 
 .nav ul li a {
   text-decoration: none;
   color: #66989b;
 }
-
 
 .fa-arrow-right {
   margin: 7px 1rem;
