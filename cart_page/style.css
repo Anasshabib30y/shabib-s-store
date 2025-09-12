@@ -9,7 +9,7 @@
     justify-self: center;
     text-align: center;
     margin-top: -7.8px;
-    left: -80px;
+    right: 70px;
     position: relative;
 }
 
@@ -19,8 +19,7 @@
     width: 100%;
     justify-content: center;
     margin: 0;
-        text-decoration: none;
-
+    text-decoration: none;
     padding: 0;
 }
 
