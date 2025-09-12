@@ -4,7 +4,7 @@ body{
     background-size: cover;
     margin: 0;
     padding: 0;
-      box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -13,7 +13,7 @@ body{
 .nav{
     background-color: #fff;
     height: 50px;
-    width:1300px;
+    width:100%;
     display: flex;
     text-align: center;
     justify-self: center;
