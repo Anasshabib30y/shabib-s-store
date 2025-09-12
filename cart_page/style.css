@@ -1,6 +1,6 @@
-/* 
+
 .nav {
-  background-color: #fff;
+  background-color: #da0000;
   height: 50px;
   width: 1300px;
  
@@ -28,13 +28,13 @@
 .nav ul li a {
   text-decoration: none;
   color: #66989b;
-} */
+}
 
 
 
 
 
-.nav{
+/* .nav{
     background-color: #fff;
     height: 50px;
     width:1300px;
@@ -43,9 +43,9 @@
     justify-self: center;
     text-align: center;
     margin-top: -7.8px;
-    /* left: 80px;
-    position: relative; */
-}
+     left: 80px;
+     position: relative; 
+ } 
 
 .nav ul{
     display: flex;
@@ -70,7 +70,7 @@
 .nav ul li a{
     text-decoration: none;
     color: #66989b;
-}
+} */  
 
 .fa-arrow-right {
   margin: 7px 1rem;
