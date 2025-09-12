@@ -43,3 +43,8 @@ add_btn.addEventListener("click", () => {
 
     alert("تم اضافة المنتج الى السلة");
 });
+let back_btn = document.querySelector(".fa-arrow-right");
+
+back_btn.addEventListener("click", () => {
+    window.history.back();
+});
