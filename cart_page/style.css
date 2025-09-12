@@ -12,9 +12,9 @@ body {
   height: 50px;
   width: 80%;         /* 80% من الشاشة */
   margin: 20px auto;  /* يوسّط العنصر */
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   position: relative;
   left: -200px;
 }
