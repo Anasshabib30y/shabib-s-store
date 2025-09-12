@@ -1,7 +1,7 @@
-
+/* 
 .nav {
   background-color: #da0000;
-  
+
 }
 
 .nav ul {
@@ -26,7 +26,7 @@
 .nav ul li a {
   text-decoration: none;
   color: #66989b;
-}
+} */
 
 
 
@@ -68,7 +68,7 @@
 .nav ul li a{
     text-decoration: none;
     color: #66989b;
-} */  
+} 
 
 .fa-arrow-right {
   margin: 7px 1rem;
@@ -77,6 +77,7 @@
   left: 15px;
   cursor: pointer;
 }
+  */  
 
 body {
   background: linear-gradient(#709a95, #2a605a);
@@ -129,8 +130,8 @@ h1 {
   justify-self: center;
   text-align: center;
   margin-top: -7.8px;
-  left: 80px;
-  position: relative;
+  /* left: 80px;
+  position: relative; */
 }
 
 .nav ul {
