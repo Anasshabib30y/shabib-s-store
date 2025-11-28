@@ -2,8 +2,8 @@
 body{
     background: linear-gradient( #709a95,#2a605a);
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
     overflow-x: hidden;
 }
