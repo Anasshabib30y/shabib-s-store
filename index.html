@@ -3,71 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sing in</title>
+    <title>Shabib's store</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
     <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 />
+
 </head>
 <body>
-    <div>
-        <form id="form">
-        <div class="container">
-            <h1>Sign In</h1>
-            <label for="username">User Name</label>
-            <div class="container_input">
-          <i class="fas fa-user"></i>
-          <input
-            type="text"
-            name="username"
-            id="username"
-            placeholder="John Doe"
-          />
-          <i class="fas fa-exclamation-circle failure-icon icon"></i>
-          <i class="far fa-check-circle success-icon icon"></i>
-          <div class="error"></div>
-        </div>
-        
 
-        <!-- /** 
-          * ! Email Input here
-         **/ -->
+    <navigation class="nav">
+        <ul>
+            <li><a href="#">القائمه الرئيسيه</a></li>
+            <li><a href="men/index.html">الرجال</a></li>
+            <li><a href="women/index.html">النساء</a></li>
+            <li><a href="girl/index.html">البنات</a></li>
+            <li><a href="boy/index.html">الاولاد</a></li>
+            <li><a href ="baby/index.html">الرضع</a></li>
+<li><a href="cart_page/index.html">سله التسوق</a></li>
+        </ul>
 
-         <label for="email">Email</label>
-        <div class="container_input">
-          <i class="far fa-envelope"></i>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="abc@gmail.com"
-          />
-          <i class="fas fa-exclamation-circle failure-icon icon"></i>
-          <i class="far fa-check-circle success-icon icon"></i>
-          <div class="error"></div>
+    </navigation>
+
+    <article>
+        <div id="carouselExampleInterval" style="max-width: 600px ;max-height: 400px; margin-left: 50%;" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="Store_with_clothes.webp" style="width: 600px ; height: 400px" class="  d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="man_6_photo/men6.jpeg" style="width: 600px ; height: 400px"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="women_6_photo/images.jpeg" style="width: 600px ; height: 400px"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="girl_4_photo/girl_.jpg" style="width: 600px ; height: 400px"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="boy_7_photo/boy_.avif" style="width: 600px ; height: 400px"  class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="baby_7_photo/baby_.avif" style="width: 600px ; height: 400px"  class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <div class="container_img3">
+        <div class="Perfumes">
+            <img src="woody_purfumes/woody_Perfumes.png"class="img4">
+            <div class="container_i" id="perfumes">
+                <h5>Perfumes</h5>
+                <a href="woody_purfumes/index.html"><i class="fa-solid fa-door-open"></i></a>
+                </div>
+        </div>
+        <div class="make_up">
+            <img src="Make_up/Make_up_1.jpg">
+            <div class="container_i make">
+                <h5>make_up</h5>
+                <a href="Make_up/index.html"><i class="fa-solid fa-door-open"></i></a>
+            </div>
+        </div>
+        <div class="electrical_appliances">
+            <img src="dishwasher/dishwasher.webp" alt="" class="img5">
+            <div class="container_i electrical">
+                <h5>electrical appliances</h5>
+                <a href="dishwasher/index.html"><i class="fa-solid fa-door-open"></i></a>
+                </div>
+        </div>
+        <div class="Baby_care_tools">
+            <img src="Baby_care_tool/baby_care_tools.webp" alt="" class="img6">
+            <div class="container_i Baby_care">
+                <h5>Baby care tools</h5>
+
+                <a href="Baby_care_tool/index.html"><i class="fa-solid fa-door-open"></i></a>
+                </div>
+        </div>
         </div>
 
-        <!-- /** 
-          * ! Password Input here
-         **/ -->
-
-         <label for="password">Password</label>
-        <div class="container_input">
-          <i class="fas fa-lock"></i>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password here"
-          />
-          <i class="fas fa-exclamation-circle failure-icon icon"></i>
-          <i class="far fa-check-circle success-icon icon"></i>
-          <div class="error"></div>
+        <div class="sale">
+            <form>
+                <input type="text" id="code" placeholder="☐ ☐ ☐ ☐" min="4" max="4">
+                <label for="code"> : الرمز</label>
+            </form>
+            <h5>👇خصم 15٪ علي المنتجات المتاحه👇</h5>
         </div>
-        <button type="submit" id="submit">Submit</button>
+        <div class="container_img4">
+        <img class="img7" src="girl/girl_pajamas_0.jpg">
+        <!-- <i class="fa-solid fa-door-open"></i> -->
+        <img class="img8" src="girl/girl_dress_0.jpeg">
+        <!-- <i class="fa-solid fa-door-open"></i> -->
+        <img class="img9" src="girl/girl_pajamas_1.jpg">
+        <!-- <i class="fa-solid fa-door-open"></i> -->
+        <img class="img10" src="girl/girl_shirt_0.jpg">
+        <!-- <i class="fa-solid fa-door-open"></i> -->
+        <img class="img11" src="boy/boy_pajamas.jpg">
+        <!-- <i class="fa-solid fa-door-open"></i> -->
+        <img class="img12" src="boy/boy_shirt_1.jpeg">
+        <!-- <i class="fa-solid fa-door-open"></i> -->
+        <img class="img13" src="boy/boy_shirt-0.jpeg">
+        <!-- <i class="fa-solid fa-door-open"></i> -->
+        <img class="img14" src="boy/spiderman.jpg">
+        <!-- <i class="fa-solid fa-door-open"></i> -->
         </div>
-        </form>
-        <script src="app.js"></script>
+    </article>
+    <footer>
+        <a href="https://wa.me/2001092168747?text=لدي استفسار عن:"><i>🧑🏼‍💻</i></a>
+         <a href="https://wa.me/2001092168747?text="> <i class="fa-brands fa-whatsapp" style="color: #63E6BE;"></i></i>
+        <i class="fa-solid fa-envelope fa-flip-horizontal" style="color: #63E6BE;"></i>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
