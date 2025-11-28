@@ -13,7 +13,7 @@ body{
 
 .nav{
     background-color: #fff;
-    height: 50px;
+    height: 70px;
     width:100%;
     display: flex;
     text-align: center;
@@ -23,6 +23,8 @@ body{
     /* left: 80px;
     position: relative; */
 }
+
+
 
 .nav ul{
     display: flex;
@@ -246,6 +248,7 @@ article{
  .sale input{
  background-color: rgba(255, 255, 255, 0.1);
     width: 50px;
+    height: 30px;
     border: none;
  }
  .container_img4{
