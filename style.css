@@ -1,11 +1,17 @@
 
 body{
-    background: linear-gradient( #709a95,#2a605a);
+    background: linear-gradient(to right, #709a95,rgb(42, 96, 90));
     background-size: cover;
     /* margin: 0;
     padding: 0; */
     box-sizing: border-box;
     overflow-x: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    transition: ease-in-out;
+
 }
 
 
@@ -13,8 +19,8 @@ body{
 
 .nav{
     background-color: #fff;
-    height: 50px;
-    width:1300px;
+    height: 70px;
+    width:100%;
     display: flex;
     text-align: center;
     justify-self: center;
@@ -24,11 +30,14 @@ body{
     position: relative; */
 }
 
+
+
 .nav ul{
     display: flex;
     list-style: none;
     width: 100%;
     justify-content: center;
+    align-items: center;
     margin: 0;
     text-decoration: none;
 
@@ -36,7 +45,7 @@ body{
 }
 
 .nav ul li{
-    margin: 7px 1rem;
+    margin: 0px 1.5rem;
     color: #fff;
     font-size: 1.2rem;
     cursor: pointer;
@@ -47,6 +56,11 @@ body{
 .nav ul li a{
     text-decoration: none;
     color: #66989b;
+}
+
+.carousel{
+    margin-top: 30px;
+    border-radius: 10px;
 }
 
 .container_img{
@@ -66,163 +80,54 @@ margin-top: 50px;
     padding: 7px;
 }
 
-#left_Arrow{
-    position: relative;
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-#right_Arrow{
-    position: relative;
-
-}
 
 
-
-.img2{
-    width: 300px;
-    height: 200px;
-    margin: 0 10px;
-    border-radius: 10px;
-    position: relative;
-    
-}
 
 .container_img3{
-
     display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-    margin: 80px;
-
-}
-.container_img3 a{
-    text-decoration: none;
-    color: #f2f1f4;
-}
-
-.container_i{
-    display: flex;
-    justify-self: center;
-    text-align: center;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     margin-top: 30px;
-    position: relative;
-    left: 125px;
-}
-.container_i i{
-    margin-left: 10px;
-    cursor: pointer;
-}
+    /* margin-left: 15%; */
+    max-width: 90%;
+    height: auto;
+    padding: 10px;
 
-.electrical{
-    position: relative;
-    left: 80px
 }
-
-/* .container_img3{
-    width: 1000px;
-    height: 400px;
-    position: relative;
-    left: -80px;
+.overview{
     display: flex;
-    justify-self: center;
-    text-align: center;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
-    gap: 10px; /* مسافة بين الصور */
-    /* overflow-x: auto; /* يضيف الاسكرول الأفقي */
-    /* scroll-behavior: smooth; حركة ناعمة */
-    /* scrollbar-width: none */
-    
-
-.Perfumes{
-    width: 500px;
-    height: 350px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f2f1f4;
-    margin-left: 40px;
-
-
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
 }
- .Perfumes img{
-    width: 250px;
+.overview img{
+    width: 400px;
     height: 300px;
+    border-radius: 10px;
+    margin: 17px;
     object-fit: cover;
-    position: relative;
-    left: 250px;
- }
- #perfumes{
-    position: relative;
-    left: 250px;
-    top: -20px;
- }
-
- .make_up{
-    width: 500px;
-    height: 350px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f2f1f4;
-    position: relative;
-    left: 70px;
- }
-.make_up img{
-       width: 250px;
-    height: 300px;
-     object-fit: cover;
-
-
+    transition: 0.9s ease;
 }
-.make{
-    position: relative;
-    left: -0px;
-    top: -20px;
+.overview img:hover{
+    transform: scale(1.1);
 }
 
-.electrical_appliances{
-    width: 500px;
-    height: 350px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f2f1f4;
-    position: relative;
-    left: -100px;
-
+.overview h5{
+    color: rgb(45, 52, 59);
+    font-weight: bold;
 }
-.electrical_appliances img{
-     width: 250px;
-     height: 300px;
-     object-fit: cover;
-     
-     
-}
-
-.electrical{
-    position: relative;
-    left: -20px;
-    top: -10px;
-}
-
-
-.Baby_care_tools{
-    width: 500px;
-    height: 350px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f2f1f4;
-    position: relative;
-    left: -270px;
-
-}
-.Baby_care_tools img{
-     width: 250px;
-     height: 300px;
-     object-fit: cover;
-     
-}
-.Baby_care{
-    position: relative;
-    left: -20px;
-    top: -10px
+.overview a{
+    text-decoration: none;
 }
 
  .sale{
@@ -232,23 +137,23 @@ margin-top: 50px;
     text-align: center;
     align-items: center;
     margin: 80px;
-    position: relative;
     background:linear-gradient(#f2f1f4,#d59daa);
-    width: 550px;
-    padding-left: 130px;
+    width: 40%;
+    padding-left: 100px;
  }
 
  .sale input{
  background-color: rgba(255, 255, 255, 0.1);
     width: 50px;
+    height: 30px;
     border: none;
  }
  .container_img4{
     display: flex;
-    justify-self: start;
+    justify-self: center;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-
 
  }
 /*  
@@ -261,336 +166,159 @@ margin-top: 50px;
 
  } */
  .container_img4 img{
-       width: 250px;
+    width: 250px;
     height: 300px;
-     object-fit: cover;
-     margin: 50px;
+    object-fit: cover;
+    margin: 50px;
+    transition: 0.9s ease;
+    border-radius: 10px;
+
  }
- footer{
+ .container_img4 img:hover{
+    transform: scale(1.1);
+ }
+ .icons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
     color: #f2f1f4;
-    border-top: 2px solid black;
+   
  }
- footer i{
+ .icons i{
     margin: 5px 60px;
     font-size: 30px;
     cursor: pointer;
  }
-
-
-
-
-
-   @media (max-width:641px){
-    body{
-    background: linear-gradient( #709a95,#2a605a);
-    background-size: cover;
-    width: auto;
-    height: auto;
-}
-
-.nav{
-    background-color: #fff;
-    height: auto;
-    width:100%;
-    display: flex;
-    text-align: center;
-    justify-self: center;
-    text-align: center;
-    margin-top: -5.8px;
-    left: 5px;
-    position: relative;
-}
-
-.nav ul{
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: center;
-    margin: 0;
-        text-decoration: none;
-
-    padding: 0;
-}
-
-.nav ul li{
-    margin: 5px .8rem;
-    color: #fff;
-    font-size: 0.8rem;
-    cursor: pointer;
-    text-decoration: none;
-    list-style: none;
-}
-
-.nav ul li a{
-    text-decoration: none;
-    color: #66989b;
-}
-
-
-
-.container_img{
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-
-}
-.container_img i{
-    font-size: 15px;
-    background-color: black;
-    color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-    padding: 5px;
-}
-
-#left_Arrow{
-    position: relative;
-    cursor: pointer;
-    left: 0px;
-}
-
-#right_Arrow{
-    position: relative;
-    cursor: pointer;
-    left: 0px;
-    
-}
-
-.img2{
-    margin: 0 8px;
-    border-radius: 10px;
-    position: relative;
-    left: 0px;
-    top: -0px;
-
-}
-.container_img3{
-
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-
-    margin: 0px;
-    
-
-}
-.container_img3 a{
-    text-decoration: none;
-    color: #f2f1f4;
-}
-
-.container_i{
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-
-}
-.container_i i{
-    margin-right: 10px;
-    cursor: pointer;
-    margin-left: 10px;
-
-}
-.container_img3{
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 5px;
-    gap: 8px; /* مسافة بين الصور */
-    overflow-x: auto; /* يضيف الاسكرول الأفقي */
-    scroll-behavior: smooth; /* حركة ناعمة */
-    scrollbar-width: none;
-    height: auto;
-    left: 15px;
-    top: -40px;
-}
-#perfumes{
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 5px;
-
-    left: 15px;
-    top: -40px;
-
-}
-.Baby_care{
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 5px;
-
-    top: -40px;
-    left: -10px
-    
-}
-    .make{
-        top: -37px;
-        left: 29px;
-            display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 5px;
-
-    }
-
-    .electrical{
-        top: -40px;
-        left: -1px;
-            display: flex;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 5px;
-    position: relative;
-    }
-
-
-
-.Perfumes{
-      width: 400px;
-    height: 250px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f2f1f4;
-    ;
-}
- .Perfumes img{
-    width: 100px;
-    height: 150px;
-    border-radius: 10px;
-    margin: 2px;
-    object-fit: cover;
- }
-
- .make_up{
-      width: 400px;
-    height: 250px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f2f1f4;
- }
-.make_up img{
-    width: 100px;
-    height: 150px;
-    border-radius: 10px;
-    margin: 17px;
-    object-fit: cover;
-}
-
-.electrical_appliances{
-      width: 400px;
-    height: 250px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f2f1f4;
-}
-.electrical_appliances img{
-    width: 100px;
-    height: 150px;
-    border-radius: 10px;
-    margin: 17px;
-    object-fit: cover;
-}
-
-.Baby_care_tools{
-      width: 400px;
-    height: 250px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #f2f1f4;
-}
-.Baby_care_tools img{
-    width: 100px;
-    height: 150px;
-    border-radius: 10px;
-    margin: 17px;
-    object-fit: cover;
-}
-
- .sale{
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    text-align: center;
-    align-items: center;
-    font-size: medium;
-    margin: 50px;
-    position: relative;
-    left: 20px;
-    background:linear-gradient(#f2f1f4,#d59daa);
-    width: 250px;
-    height: 50px;
-    padding-left: 30px;
- }
-
- .sale input{
- background-color: rgba(255, 255, 255, 0.1);
-    width: 40px;
-    border: none;
- }
- .container_img4{
-    display: flex;
-    justify-self: start;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-
- }
-/*  
- .container_img4 i{
-
-    position: relative;
-    top: 360px;
-    left: -190px;
-    cursor: pointer;
-
- } */
- .container_img4 img{
-    width: 150px;
-    height: 250px;
-    border-radius: 10px;
-    margin: 17px;
-    object-fit: cover;
- }
-
  footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px;
     color: #f2f1f4;
-    border-top: 2px solid black;
+    border-top: 3px solid black;
  }
- footer i{
-    margin: 3px 30px;
-    font-size: 15px;
+
+ 
+ @media (min-width:360px) {
+
+.nav ul li{
+    margin: 0px 1.5rem;
+    color: #e00000;
+    font-size: 1.2rem;
     cursor: pointer;
-    padding-top:5px ;
+    text-decoration: none;
+    list-style: none;
+}
+
+    
+
  }
+ 
+@media (max-width:450px) {
+
+.nav ul li{
+    margin: 0px .5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+
+    .container_img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    max-width: 95%;
+    height: auto;
+    padding: 0%;
+}
+.overview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 5px; */
+}
+.overview img{
+     width: 70px;
+    height: 100px;
+    border-radius: 10px;
+    /* margin: 10px; */
+    object-fit: cover;
+}
+.container_i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.container_img4{
+    /* margin-left: 10%; */
+    align-items: center;
+    justify-content: center;
+}
+ .container_img4 img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    margin: 15px;
+    /* margin-left:;     */
  }
- @media (max-width: 480) {
-    .container_img3 img{
-        width: 100px;
-        height: 150px;
-        border-radius: 10px;
-        margin: 2px;
-        object-fit: cover;
-     }
-    }
+ .sale{
+    margin: 20px;
+    width: 90%;
+    padding-left: 50px;
+ }
+ footer h2{
+    margin-top: 10px;
+ }
+  .icons i{
+    margin: 5px 20px;
+}
+}
+
+@media (max-width:780px) {
+    .container_img4{
+    /* margin-left: 10%; */
+    align-items: center;
+    justify-content: center;
+}
+ .container_img4 img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+    margin: 15px;
+    /* margin-left:;     */
+ }
+ .sale{
+    margin: 20px;
+    width: 90%;
+    padding-left: 50px;
+ }
+ footer h2{
+    margin-top: 10px;
+ }
+}
+@media (max-width:1280px) {
+    
+    /* .sale{
+        width: 70%;
+        
+    } */
+
+    .container_img4{
+    /* margin-left: 10%; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+}
