@@ -1,0 +1,26 @@
+{
+  "name": "shabib-s-store",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Anasshabib30y/shabib-s-store#readme",
+  "bugs": {
+    "url": "https://github.com/Anasshabib30y/shabib-s-store/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anasshabib30y/shabib-s-store.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0"
+  }
+}
