@@ -1,6 +1,6 @@
 
 body{
-    background: linear-gradient(to right, #709a95,rgb(42, 96, 90));
+    background: linear-gradient(to right, rgb(42, 96, 90),rgb(42, 96, 90));
     background-size: cover;
     /* margin: 0;
     padding: 0; */
@@ -29,7 +29,16 @@ body{
     position: relative; */
 }
 
-
+#log_in{
+    background-color: rgb(42, 96, 90);
+    border: none;
+    box-shadow: 6px 4px 9px  black;
+;
+    color: #fff;
+    /* padding: 7px 10px;
+    border-radius: 5px; */
+    cursor: pointer;
+}
 
 .nav ul{
     display: flex;

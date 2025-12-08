@@ -1,46 +1,31 @@
-// const { default: axios } = require("axios");
+// const axios = require('axios/dist/browser/axios.cjs'); // browser
+// const axios = require('axios/dist/node/axios.cjs'); // node
+// const form = document.getElementById("exampleModal");
+function postData() {
+  const username = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("pwd").value.trim();
 
-let id = (id) => document.getElementById(id);
-let clas = (clas) => document.getElementsByClassName(clas);
-
-let username = id("username"),
-    email = id("email"),
-    password = id("password"),
-    form = id("form"),
-    failure_icon = clas("failure-icon"),
-    success_icon = clas("success-icon"),
-    errorMsg = clas("error");
-
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-
-    const Name = username.value.trim();
-    const Email = email.value.trim();
-    const Password = password.value.trim();
-    console.log(Name,Email,Password);
-
-});
+  const params = {
+    name: username,
+    email: email,
+    password: password,
+  };
+  const url = "https://shabib-server.onrender.com/post";
+  axios.post(url, params)
+    .then(response => {
+      console.log(response.data);
+    //   form.style.opacity = "0";
+    let logg = true;
+    localStorage.setItem("logg", JSON.stringify(logg));
+    console.log(logg)
+    window.location.href = "../index.html";
+    })
+    .catch(err => {
+      console.log(err);
+    });
 
 
-//     const Name = username.value.trim();
-//     const Email = email.value.trim();
-//     const Password = password.value.trim();
 
-//     enige(username, 0, "username is empty");
-//     enige(email, 1, "email is empty");
-//     enige(password, 2, "password is empty");
 
-//     if (Name !== "" && Email !== "" && Password !== "") {
-        
-    
-//     }function enige(input, index, message) {
-//     if (input.value.trim() === "") {
-//         errorMsg[index].textContent = message;
-//         failure_icon[index].style.opacity = "1";
-//         success_icon[index].style.opacity = "0";
-//     } else {
-//         errorMsg[index].textContent = "";
-//         failure_icon[index].style.opacity = "0";
-//         success_icon[index].style.opacity = "1";
-//     }
-// }
+}

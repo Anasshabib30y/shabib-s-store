@@ -1,169 +1,78 @@
- 
- body{
-     background-color: #99f0ff;
-     font-family: 'Tajawal', sans-serif;
-     font-family: 'Tajawal', sans-serif;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
 
- }
- .container{
+body{
+
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: relative; 
-    left: 500px;
-    top: 150px; */
-    margin-top: 50%;
-    width: 400px;
-    height: 450px;
-    padding: 50px;
-    background:linear-gradient(to right,#cdffd8,#9ac1fb);
-    border-radius: 10px;
- }
+    /* height: 100vh; */
+    /* background-color: #da0000;*/
+    flex-direction: row;
+}
 
- h1{
-    color: #6a806e;
+
+img{
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.form_div{
+      width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    width: 80%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3d7674;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 80px;
+    color: #99a8a9;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+input{
+    width: 350px;
+    height: 60px;
+    background-color: #66989b;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 9px;
     font-size: 40px;
     font-weight: bold;
- }
-
-.container_input{
-    font-size: large;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-.container_input input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 15px;
-    padding: 10px;
-    border-radius: 9px;
-    border: none;
-    width: 300px;
-    height: 30px;
-    font-size: 20px;
-    text-align: center;
-}
-
-#username{
-    background-color: #cdffd8;
-}
-#email{
-    background-color: #9ac1fb;
-}
-#password{
-    background-color: #cdffd8;
-}
-.icon{
-    opacity: 0;
-
-}
-.icon{
-    opacity: 0;
-}
-
-button{
-    font-size: x-large;
-    /* margin: 10px;
-    padding: 10px; */
-    width: 200px;
-    height: 40px;
-    border-radius: 9px;
-    border: none;
-    background-color: #9ac1fb ;
 }
 
 
-
-@media (max-width:641px){
-     body{
-     background-color: #99f0ff;
-     font-family: 'Tajawal', sans-serif;
-     font-family: 'Tajawal', sans-serif;
- }
- .container_input{
-    font-size: large;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 6px;
-    padding: 6px;
-    width: 150px;
-    height: 30px;
+.btn{
+    cursor:progress;
+    width:200px;
+    height: 50px;
+    background-color:#66989b;
     border-radius: 10px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
- h1{
-
-    color: #6a806e;
-
- }
-
-.container_input{
-    font-size: large;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 7px;
-    padding: 7px;
-    width: 150px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-.container_input input{
-    margin: 7px;
-    padding: 5px;
-    border-radius: 9px;
-    border: none;
-    width: 150px;
-    height: 15px;
-    font-size: 15px;
-    text-align: center;
-}
-
-#username{
-    background-color: #cdffd8;
-}
-#email{
-    background-color: #9ac1fb;
-}
-#password{
-    background-color: #cdffd8;
-}
-.icon{
-    opacity: 0;
-
-}
-.icon{
-    opacity: 0;
-}
-
-button{
-    font-size: large;
-    /* margin: 10px;
-    padding: 10px; */
-    width: 120px;
-    height: 25px;
-    border-radius: 9px;
-    border: none;
-    background-color: #9ac1fb ;
-}
-
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+    margin-bottom: 10px;
 }
