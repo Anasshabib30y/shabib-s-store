@@ -17,7 +17,7 @@ function postData() {
       console.log(response.data);
     //   form.style.opacity = "0";
     let logg = true;
-    localStorage.setItem("logg", JSON.stringify(logg));
+     localStorage.setItem("isLogged", JSON.stringify(true));
     console.log(logg)
     window.location.href = "../index.html";
     })

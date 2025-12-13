@@ -14,8 +14,8 @@
 
 const log_in_btn0 = document.getElementById("log_in");
 
-let logg = false;
-
+// let logg = false;
+let logg = JSON.parse(localStorage.getItem("isLogged")) || false;
 // 2
 
 const add = document.getElementById("add");
@@ -30,8 +30,8 @@ let back = document.querySelector(".fa-solid");
 //          =================          \\
 
 if  (log_in_btn0) {
-    let loggg = JSON.parse(localStorage.getItem("true"));
-    if(loggg==true) {
+    // let logg = JSON.parse(localStorage.getItem("true"));
+    if(logg==true) {
       the_opacity();
     }
 }
@@ -65,7 +65,7 @@ back.addEventListener("click", () => {
 
 
   add_btn.addEventListener("click", () => {
-    logg = JSON.parse(localStorage.getItem("true"));
+    // logg = JSON.parse(localStorage.getItem("true"));
     if (!logg) {
       go_to_login();
     } else {
@@ -76,6 +76,7 @@ back.addEventListener("click", () => {
 function go_to_login() {
   window.location.href = "../sing_in_page/index.html";
 }
+
 
 function post_to_cart() {
 
