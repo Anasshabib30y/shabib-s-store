@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cart page</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<navigation class="nav">
-        <ul>
-            <li><a href="../index.html">القائمه الرئيسيه</a></li>
-            <li><a href="../men/index.html">الرجال</a></li>
-            <li><a href="../women/index.html">النساء</a></li>
-            <li><a href="../girl/index.html">البنات</a></li>
-            <li><a href="../boy/index.html">الاولاد</a></li>
-            <li><a href="../baby/index.html">الرضع</a></li>
-            <li><a href="../cart_page/index.html">سله التسوق</a></li>   
-            <i class="fa-solid fa-arrow-right" style="color: #25b187;"></i>
-
-        </ul>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <navigation class="nav">
+      <ul>
+        <li><a href="../index.html">القائمه الرئيسيه</a></li>
+        <li><a href="../men/index.html">الرجال</a></li>
+        <li><a href="../women/index.html">النساء</a></li>
+        <li><a href="../girl/index.html">البنات</a></li>
+        <li><a href="../boy/index.html">الاولاد</a></li>
+        <li><a href="../baby/index.html">الرضع</a></li>
+        <li><a href="../cart_page/index.html">سله التسوق</a></li>
+        <i class="fa-solid fa-arrow-right" style="color: #25b187"></i>
+      </ul>
     </navigation>
     <div class="container">
-    <h1>cart page</h1>
-    <div class="container_img">
+
+        <h1>cart page</h1>
+        <div class="main">
+        <div class="container_img"></div>
+        <div class="details">
+            <h3>Details:</h3>
+            <p>The main price :<span id="m_price">0</span></p>
+            <p>price after tax : <span id="tax">0</span></p>
+            <h3>Total Order : <span id="total">0</span></h3>
+            <button id="btn">Buy</button>
+        </div>
+        </div>
     </div>
-</div>
+
+
+
+
+
+
+
+
+
+    <!-- <footer>
+      <div class="details">
+        <h3>Details:</h3>
+        <p>The main price :<span id="m_price"></span></p>
+        <p>price after tax : <span id="tax"></span></p>
+        <h3>Total Order : <span id="total"></span></h3>
+      </div>
+      <button>Buy</button>
+    </footer> -->
     <script src="app.js"></script>
-</body> 
+  </body>
 </html>

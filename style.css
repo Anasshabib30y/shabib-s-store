@@ -1,6 +1,6 @@
 
 body{
-    background: linear-gradient(to right, rgb(42, 96, 90),rgb(42, 96, 90));
+    background: linear-gradient(to right, #ffffff,#ffffff);
     background-size: cover;
     /* margin: 0;
     padding: 0; */
@@ -17,7 +17,7 @@ body{
 
 
 .nav{
-    background-color: #fff;
+    background-color:#66989b;
     height: 70px;
     width:100%;
     display: flex;
@@ -30,11 +30,11 @@ body{
 }
 
 #log_in{
-    background-color: rgb(42, 96, 90);
+    background-color: #ffffff;
     border: none;
     box-shadow: 6px 4px 9px  black;
 ;
-    color: #fff;
+    color: #66989b;
     /* padding: 7px 10px;
     border-radius: 5px; */
     cursor: pointer;
@@ -63,7 +63,7 @@ body{
 
 .nav ul li a{
     text-decoration: none;
-    color: #66989b;
+    color: #ffffff;
 }
 
 .carousel{
@@ -125,6 +125,7 @@ article{
     margin: 17px;
     object-fit: cover;
     transition: 0.9s ease;
+    border: #66989b solid 1px;
 }
 .overview img:hover{
     transform: scale(1.1);
@@ -205,7 +206,7 @@ article{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    color: #f2f1f4;
+    color: #66989b;
     border-top: 3px solid black;
  }
 

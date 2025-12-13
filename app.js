@@ -93,7 +93,7 @@ function post_to_cart() {
     price: add_btn.dataset.price,
     many: count,
   };
-
+  console.log(product);
   let cart = JSON.parse(localStorage.getItem("cart"));
   cart.push(product);
   localStorage.setItem("cart", JSON.stringify(cart));
