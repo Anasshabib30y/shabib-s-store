@@ -1,7 +1,9 @@
 // const axios = require('axios/dist/browser/axios.cjs'); // browser
 // const axios = require('axios/dist/node/axios.cjs'); // node
 // const form = document.getElementById("exampleModal");
-function postData() {
+const form = document.getElementById("my_form");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
   const username = document.getElementById("name").value.trim();
   const email = document.getElementById("email").value.trim();
   const password = document.getElementById("pwd").value.trim();
@@ -24,8 +26,10 @@ function postData() {
     .catch(err => {
       console.log(err);
     });
+});
+  
 
 
 
 
-}
+
