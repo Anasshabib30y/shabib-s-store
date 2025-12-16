@@ -100,9 +100,10 @@ h1 {
   color: #66989b;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 80px;
-  margin-left: 23%;
+  /* margin-left: 2%; */
 
 }
+
 
 .main {
   display: flex;
@@ -121,11 +122,21 @@ h1 {
   flex-direction: row;
   background-color: #fff;
   flex-wrap: wrap;
-  max-width: 65%;
+  max-width: 70%;
   /* margin-left: 7%; */
   /* margin: 80px; */
   height: auto;
   /* width: auto; */
+  
+}
+.modal-title{
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left:38%;
+}
+.modal-body{
+  font-size: larger;
 }
 
 #img {
@@ -177,6 +188,12 @@ h1 {
   color: white;
 }
 
+
+button:hover{
+  background-color: #66989b;
+  color: #3d7674;
+}
+
 .details {
   width: 25%;
   height: 500px;
@@ -186,8 +203,8 @@ h1 {
   flex-direction: column;
   padding: 30px 20px;
   background-color: #fff;
-  margin-left: 5%;
-  margin-right: -10%;
+  margin-left: 10%;
+  
   /* margin-top: -7%; */
 }
 
@@ -208,7 +225,7 @@ p {
   margin-bottom: 30px;
 }
 
-button {
+#btn {
   background-color: #3d7674;
   font-size: larger;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

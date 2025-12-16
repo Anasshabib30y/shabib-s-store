@@ -13,6 +13,8 @@ form.addEventListener("submit", (e) => {
     email: email,
     password: password,
   };
+  // export default params;
+
   const url = "https://shabib-server.onrender.com/post";
   axios.post(url, params)
     .then(response => {
@@ -20,8 +22,10 @@ form.addEventListener("submit", (e) => {
     //   form.style.opacity = "0";
     let logg = true;
      localStorage.setItem("isLogged", JSON.stringify(true));
+     localStorage.setItem("userData", JSON.stringify(params));
     console.log(logg)
     window.location.href = "../index.html";
+    
     })
     .catch(err => {
       console.log(err);

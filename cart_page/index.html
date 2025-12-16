@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cart page</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -22,27 +24,46 @@
       </ul>
     </navigation>
     <div class="container">
-
-        <h1>cart page</h1>
-        <div class="main">
+      <h1>cart page</h1>
+      <div class="main">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">New Massage</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+        Your order has been received and you will receive a response within 24 hours.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
         <div class="container_img"></div>
-        <div class="details">
+          <!-- <div class="all">
+            <form action="https://formsubmit.co/anas@gmail.com" method="POST">
+              <div class="inp">
+              <label  for="address">your address</label>
+              <input type="text" placeholder="please enter your address" name="address" required>
+              </div> -->
+              <!-- <button type="submit"class="btn">submit</button> -->
+            <div class="details">
             <h3>Details:</h3>
             <p>The main price :<span id="m_price">0</span></p>
             <p>price after tax : <span id="tax">0</span></p>
             <h3>Total Order : <span id="total">0</span></h3>
-            <button id="btn">Buy</button>
+            <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn" >Buy</button>
+          </div>
+            <!-- </form> -->
+
+          </div>
+          
         </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
+      </div>
+  
 
     <!-- <footer>
       <div class="details">
@@ -53,6 +74,8 @@
       </div>
       <button>Buy</button>
     </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
     <script src="app.js"></script>
   </body>
 </html>
